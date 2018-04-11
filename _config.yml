@@ -1,0 +1,26 @@
+title: Beunhazen CTF team
+email: team.beunhazen@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+    A bunch of bunglers playing CTFs
+baseurl: ""
+url: "https://beunhazen.net"
+github_username:  beunhazen-net
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-hacker
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
