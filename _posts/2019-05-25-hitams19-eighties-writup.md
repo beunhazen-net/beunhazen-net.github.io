@@ -167,7 +167,7 @@ for input in product(*possible_inputs()):
 
 This provided us with the following flag `HITB{aba69d0cbf36a8c6a6bd49da1f194ce0}`
 
-A quick run in the emulator by setting a breakpoint on the address `0xc1ee`, just before our inputs is validated, and replacing our supplied input with the discovered input using the hex editor, reveals that we have found the correct flag.
+A quick run in the emulator by setting a breakpoint on the address `0xc1ee`, just before our input is validated, and replacing our supplied input with the brute-forced input using the hex editor, reveals that we have found the correct flag.
 
 ![The result of providing the found input combination](/assets/posts/2019-05-25-hitams19-eighties-writeup/screenshot12.png)
 
