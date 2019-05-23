@@ -182,5 +182,5 @@ Our complete solution can be downloaded [here](/assets/posts/2019-05-25-hitams19
 First of all, we want to thank the HITBAMS CTF crew for a great CTF and in particular [Blasty](https://twitter.com/bl4sty/) for a nice binary challenge. 
 
 Last, but not least, our employer [Securify](https://securify.nl) for allowing us to participate during work time!
-Allegedly, they are [hiring](https://securify.nl/en/jobs)
+Allegedly, they are [hiring](https://securify.nl/en/jobs) ;).
 
