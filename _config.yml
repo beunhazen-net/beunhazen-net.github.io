@@ -4,5 +4,6 @@ description: >- # this means to ignore newlines until "baseurl:"
     "Je hebt beunhazen en je hebt eindbazen"
     We are the former!
 github: https://github.com/beunhazen-net
+twitter: https://twitter.com/teambeunhazen
 markdown: kramdown
 theme: jekyll-theme-hacker
