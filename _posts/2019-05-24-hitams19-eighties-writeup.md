@@ -9,7 +9,7 @@ In this write-up we will discuss our approach to solving the eighties binary cha
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Shoutouts to everyone who played the <a href="https://twitter.com/hashtag/HITB2019AMS?src=hash&amp;ref_src=twsrc%5Etfw">#HITB2019AMS</a> CTF. I was the author of the following tasks: shareware, seventies, eighties, untimely. Let me know if they were any fun. :)</p>&mdash; BLASTY (@bl4sty) <a href="https://twitter.com/bl4sty/status/1127531541150744577?ref_src=twsrc%5Etfw">May 12, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-If you want to follow along, you can grab a copy of the binary [here](https://haxx.in/eighties.nes)
+If you want to follow along, you can grab a copy of the binary [here](https://haxx.in/eighties.nes).
 
 The first step is to run the NES ROM to see what it expects. We ended up using
 the Windows version of the [FCEUX](http://www.fceux.com/web/home.html) NES
@@ -39,7 +39,7 @@ So, by selecting the data from the referenced address `0xc440` up to the address
 From there we continue with the reverse engineering process. We end up with a call to the function `sub_c2ea` that we follow to determine its function.
 The next screenshot shows our annotated version, which we derived from the fact that the `JOY1` symbol was involved. 
 
-A quick search query on how to read NES controller input revealed a snippet of assembly code that is equivalent to the disassembly listing we are seeing. For more information see [this](https://wiki.nesdev.com/w/index.php/Controller_reading_code) wiki page from the nesdev.com [wiki](https://wiki.nesdev.com)
+A quick search query on how to read NES controller input revealed a snippet of assembly code that is equivalent to the disassembly listing we are seeing. For more information see [this](https://wiki.nesdev.com/w/index.php/Controller_reading_code) wiki page from the nesdev.com [wiki](https://wiki.nesdev.com).
 
 ![Screen presented when emulating the Eighties ROM](/assets/posts/2019-05-25-hitams19-eighties-writeup/screenshot6.png)
 
@@ -171,11 +171,9 @@ A quick run in the emulator by setting a breakpoint on the address `0xc1ee`, jus
 
 ![The result of providing the found input combination](/assets/posts/2019-05-25-hitams19-eighties-writeup/screenshot12.png)
 
-
-
 ![The result of providing the found input combination](/assets/posts/2019-05-25-hitams19-eighties-writeup/screenshot13.png)
 
-Our complete solution can be downloaded [here](/assets/posts/2019-05-25-hitams19-eighties-writeup/eighties.py)
+Our complete solution can be downloaded [here](/assets/posts/2019-05-25-hitams19-eighties-writeup/eighties.py).
 
 ## A word of thanks
 
