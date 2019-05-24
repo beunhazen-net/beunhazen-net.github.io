@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "HITBAMS 2019 Eighties Writeup"
-date:   2019-05-20 09:00:00 +0200
+date:   2019-05-24 10:00:00 +0200
 tags: ctf binary reverse-engineering
 ---
 In this write-up we will discuss our approach to solving the eighties binary challenge created by [Blasty](https://twitter.com/bl4sty/).
